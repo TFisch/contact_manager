@@ -37,7 +37,7 @@ class Contacts extends Component {
           <Contact
             key={contact.id}
             contact={contact}
-            deleteClickHandler={this.deleteContact}
+            deleteClickHandler={this.deleteContact.bind(this, contact.id)}
           />
         ))}
       </React.Fragment>
