@@ -10,11 +10,12 @@ const Header = props => {
           {branding}
         </a>
         <div>
-          <ul className="navbar-auto mr-auto ">
-            <li className="nav-item" />
-            <a href="/" className="nav-link">
-              Home
-            </a>
+          <ul className="navbar-nav mr-auto ">
+            <li className="nav-item">
+              <a href="/" className="nav-link">
+                Home
+              </a>
+            </li>
           </ul>
         </div>
       </div>
