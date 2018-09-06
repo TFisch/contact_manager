@@ -27,6 +27,11 @@ class Contacts extends Component {
       ]
     }
   }
+
+  deleteClickHandler = () => {
+
+  }
+
   render() {
     const { contacts } = this.state
     return (
@@ -35,6 +40,7 @@ class Contacts extends Component {
           <Contact
             key={contact.id}
             contact={contact}
+            deleteClickHandler={this.deleteClickHandler}
           />
         ))}
 
