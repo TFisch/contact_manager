@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Contact from './components/Contact'
 import Contacts from './components/Contacts';
 import Header from './components/Header';
 import { Provider } from './context';
@@ -13,6 +14,7 @@ class App extends Component {
 
       <div className="App">
         <h1>The App Component</h1>
+        <Contact />
       </div>
 
     );
